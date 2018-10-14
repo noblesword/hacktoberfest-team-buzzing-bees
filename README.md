@@ -5,7 +5,6 @@ Maps are generally boring to people like me, but to make such maps interesting, 
 
 INTERACTIVE ATLAS is a web application that provides user to visualize, manipulate and compare data of geographical world.it represents global data from various regions to continents, countries to states, physical, political and weather statistics.
 
+This project utilizes datasets from Kaggle and many such renowned sources .
 
-
-This project utilizes datasets from Kaggle and many  renowned sources .
 
