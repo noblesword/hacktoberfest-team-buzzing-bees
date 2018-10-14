@@ -7,5 +7,5 @@ INTERACTIVE ATLAS is a web application that provides user to visualize, manipula
 
 
 
-This project utilizes datasets from Kaggle and many such renowned sources .
+This project utilizes datasets from Kaggle and many  renowned sources .
 
