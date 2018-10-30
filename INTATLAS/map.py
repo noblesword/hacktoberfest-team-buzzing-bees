@@ -1,12 +1,11 @@
 import folium
 import pandas
 
-
-
 data1 = pandas.read_csv("database.csv")
 data = pandas.read_csv("Volcanoes.txt")
 data2 = pandas.read_csv("worldcities.csv")
 
+# Parameters important for locating
 lat1 = list(data1["Latitude"])
 lon1 = list(data1["Longitude"])
 mag = list(data1["Magnitude"])
@@ -40,13 +39,11 @@ def color_producer1(mag1):
 def color_producer2():
     return 'pink'
 
-
-
 map = folium.Map(location=[38.58, -99.09], zoom_start=6,tiles="Mapbox Bright")
-'''fga=folium.FeatureGroup(name="AGRICULTURAL LAND")
+fga=folium.FeatureGroup(name="AGRICULTURAL LAND")
 fga.add_child(folium.GeoJson(data=open('temp.json', 'r', encoding='utf-8-sig').read(),
 style_function=lambda x: {'fillColor':'red'  if x[0]['Agr_land'] < 10000000
-else 'orange' if 10000000 <= x[0]['Agr_land'] < 20000000  else 'blue'}))'''
+else 'orange' if 10000000 <= x[0]['Agr_land'] < 20000000  else 'blue'}))
 
 
 fge = folium.FeatureGroup(name="EARTHQUAKES")
